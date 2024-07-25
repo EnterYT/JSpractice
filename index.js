@@ -30,4 +30,3 @@ function dayOfWeek(day){
             return "Sunday";
     }
 }
-
