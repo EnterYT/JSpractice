@@ -1,0 +1,14 @@
+.team-member img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin-bottom: 20px;
+}
+.content-section {
+    padding: 60px 0;
+}
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

@@ -31,32 +31,38 @@ button{
     text-align: center;
 }
 div.main-info{
-    background-color: #202020;
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
+    background-image: url('/img/background.jpg');
     width: 100%;
     height: 600px;
     margin-block-end: 32px;
     overflow-y: hidden;
     z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div.main-info img{
-    width: 100%;
+    width: 80%;
     height: 600px;
     overflow: hidden;    
-    opacity: 75%;
     position: absolute;
 }
 div.main-info-top{
+    border-radius: 15px;
+    padding: 10px;
     width: 522px;
     height: 212px;
     margin-left: 75px;
     margin-top: 150px;
     bottom: 0%;
     z-index: 1;
+    background-image: linear-gradient(rgb(155, 57, 57), rgba(68, 35, 35, 0.8));
 }
 div.main-info-top p{
     color: #E4E4E4;
+    position: relative;
 }
 div.main-info-bottom{
     width: 100%;
