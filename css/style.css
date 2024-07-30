@@ -5,52 +5,20 @@
     font-size: large;
 }   
 span{
-    color: #366E63;
+    color: #4c9a8b;
 }
-header{
-    width: 100%;
-    height: 100px;
-    border-color: #a8a8a8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-header div{
-    margin: auto;
-    justify-content: center;
-    align-items: right;
-    display: flex;
+.footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
-header div img.header-logo{
-    width: 175px;
-    background-color: white;
-    border-radius: 50px;
-    z-index: 2;
-}   
-header div.logo-cover{
-    background-color: white;
-    padding: 25px;
-    z-index: 2;
-    border-radius: 125px;
-    margin-left: 50px;
-}
-header div.header-container{
-    width: 50%;
-    float: right;
-    margin-right: 0;
-}
-header p{
-    color: black;
-    font-size: large;
-    margin-block-end: 0;
-}
-
 p{
     color: #6E6B8B;
 }
 
 button{
-    background-color: #366E63;
+    background-color: #31ff49;
     color: white;
     width: 175px;
     height: 40px;

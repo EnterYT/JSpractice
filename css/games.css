@@ -18,3 +18,32 @@
 p{
     color:aliceblue;
 }
+div.welcome{
+    margin-top: 50px;
+}
+h1.welcome-heading{
+    font-size: 64px;
+    font-family: Luminari, fantasy;
+}
+.carousel-control-next-item, .carousel-control-prev-item{
+    background-color: black;
+}
+
+div.wish{
+    width: 75%;
+    height: 400px;
+    border-style: solid;
+    border-radius: 5px;
+    background-image: url('../img/wooden-floor.png');
+    background-size: cover;
+}   
+div.welcome p{
+    color: black;
+}
+div.sticker{
+    background-color: beige;
+    width: fit-content;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 5px;
+    border-radius: 5px;
+}
