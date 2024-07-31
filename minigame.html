@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tile Flipper Game</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .board {
+            display: grid;
+            grid-template-columns: repeat(5, 50px);
+            grid-gap: 5px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .tile {
+            width: 50px;
+            height: 50px;
+            background-color: palegreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .knight {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Tile Flipper Game</h1>
+        <div class="board" id="board"></div>
+        <div class="text-center">
+            <button class="btn btn-primary" onclick="moveKnight('up')">Up</button>
+            <button class="btn btn-primary" onclick="moveKnight('right')">Right</button>
+            <button class="btn btn-primary" onclick="moveKnight('down')">Down</button>
+            <button class="btn btn-primary" onclick="moveKnight('left')">Left</button>
+            <button class="btn btn-secondary" onclick="resetGame()">Reset</button>
+        </div>
+    </div>
+
+    <script src="minigame.js"></script>
+</body>
+</html>
